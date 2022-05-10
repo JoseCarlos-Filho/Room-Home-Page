@@ -1,35 +1,36 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+// import { createRouter, createWebHistory } from 'vue-router'
 // import HomeView from '../views/HomeView.vue'
-import shop from '../views/shop.vue';
-import home from '../views/home.vue';
-import about from '../views/about.vue';
-import contact from '../views/contact.vue';
+import shop from '../views/Shop-page.vue';
+import home from '../views/Home-page.vue';
+import about from '../views/About-page.vue';
+import contact from '@/views/Contact-page.vue';
 
 Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/home',
-    name: 'home',
+    path: '/',
+    name: 'Home',
     component: home
   }, 
   
   {
-    path: '/shop',
-    name: 'shop',
+    path: '/Shop',
+    name: 'Shop',
     component: shop
   },
 
   {
-    path: '/about',
-    name: 'about',
+    path: '/About',
+    name: 'About',
     component: about
   },
 
   {
-    path: '/contact',
-    name: 'contact',
+    path: '/Contact',
+    name: 'Contact',
     component: contact
   },
   
@@ -39,6 +40,11 @@ const routes = [
     //   component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
     // }
 ]
+
+// const router = createRouter({
+//   history: createWebHistory(process.env.BASE_URL),
+//   routes
+// })
 
 const router = new VueRouter({
   routes
