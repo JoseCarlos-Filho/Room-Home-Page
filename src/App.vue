@@ -23,8 +23,10 @@
   </div>
 </template>
 
+
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css2? family= Lato:wght@300;400;700 & family= League+Spartan:wght@500;600;700 & family= Manrope & family= Montserrat:wght@100 & family= Viaduto:wght@400;700 & display=swap');
 
 @import './StylesSass/principal.scss';
+
 </style>
