@@ -20,9 +20,9 @@
             </div>
         </section>
 
-        <section class="container-botton">
+        <section class="container-bottom">
             <div>
-                <img src="../assets/image-about-dark.jpg">
+                <img src="../assets/image-about-dark.jpg" class="img-dark-about">
             </div>
             <div>
                 <h2>ABOUT OUR FURNITURE</h2>
@@ -34,7 +34,7 @@
                 </p>
             </div>
             <div>
-                <img src="../assets/image-about-light.jpg">
+                <img src="../assets/image-about-light.jpg" class="img-light-about">
             </div>
         </section>
     </main>
