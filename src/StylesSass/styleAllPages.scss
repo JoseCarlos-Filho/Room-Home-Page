@@ -1,0 +1,36 @@
+:root {
+    --color-primary: hsl(0deg, 0%, 63%);
+    --color-primary-dark: hsl(0deg, 0%, 27%);
+    --color-secondary: hsl(0deg, 0%, 0%);
+    --color-tertiary: hsl(0deg, 0%, 100%);
+    --default-size: 1.2rem;
+}
+
+.container-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .img-hero-1 {
+        height: 400px;
+        width: 600px;
+    }
+
+    h1{
+        color: var(--color-primary-dark);
+        padding: 10px;
+        margin: 10px;
+
+    }
+
+    p {
+        color: var(--color-primary);
+        padding: 10px;
+        margin: 10px;
+    }
+}
+
+
+
+
+

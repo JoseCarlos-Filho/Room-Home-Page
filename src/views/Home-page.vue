@@ -2,7 +2,7 @@
     <main>
         <section class="container-top">
             <div>
-                <img src="../assets/desktop-image-hero-1.jpg">
+                <img src="../assets/desktop-image-hero-1.jpg" class="img-hero-1">
             </div>
             <div>
                 <h1>Discovery innovative ways to decorate</h1>
@@ -39,6 +39,8 @@
 
 </script>
 
-<style>
+<style lang="scss">
+
+@import '../StylesSass/styleAllPages.scss';
 
 </style>
