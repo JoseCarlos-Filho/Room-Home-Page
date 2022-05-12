@@ -19,7 +19,7 @@
     h1{
         color: var(--color-primary-dark);
         padding: 10px;
-        margin: 10px;
+        margin: 10px 10px;
 
     }
 
@@ -28,9 +28,45 @@
         padding: 10px;
         margin: 10px;
     }
+
+    h4{
+        color: var(--color-primary-dark);
+        padding: 10px;
+        margin: 10px;
+        letter-spacing: 1em;
+    }
+
+    .botoes-nav {
+        position: relative;
+        top: 52px;
+    }
+
+    
+
+    .botoes-nav .botao-left {
+        width: 50px;
+        height: 50px;
+    
+        background-image: url('../assets/icon-angle-left.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: var(--color-secondary);
+        border: none;
+        
+
+    }
+
+    .botoes-nav .botao-right {
+        width: 50px;
+        height: 50px;
+    
+        background-image: url('../assets/icon-angle-right.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: var(--color-secondary);
+        border: none;
+
+    }
+    
+
 }
-
-
-
-
-

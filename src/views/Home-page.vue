@@ -12,6 +12,11 @@
                 style with our collection and make your property a reflection of
                 you and what you love.
                 </p>
+                <h4>SHOP NOW ></h4>
+                <div class="botoes-nav">
+                    <input type="button" class="botao-left">
+                    <input type="button" class="botao-right">
+                </div>  
             </div>
         </section>
 
