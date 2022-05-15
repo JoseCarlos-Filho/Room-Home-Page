@@ -8,6 +8,8 @@
 
 </script>
 
-<style>
-
+<style lang="scss">
+.Contact-page {
+    background: gray;
+}
 </style>

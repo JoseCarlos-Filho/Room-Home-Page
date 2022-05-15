@@ -8,6 +8,8 @@
 
 </script>
 
-<style>
-
+<style lang="scss">
+.About-page {
+    background: gray;
+}
 </style>

@@ -1,17 +1,11 @@
 <template>
     <main>
         <section class="container-top">
+            <ConteudoImagem
+                srcImage: imgURL
+            />       
             <div>
-                <img src="../assets/desktop-image-hero-1.jpg" class="img-hero-1">
-            </div>
-            <div>
-                <h1>Discovery innovative ways to decorate</h1>
-                <p>We provide unmatched quality, comfort, and style for property
-                owners across the country. Our experts combine from and 
-                function in bringing your vision to life. Create a room in your own
-                style with our collection and make your property a reflection of
-                you and what you love.
-                </p>
+                <ConteudoRoom />
                 <h4>SHOP NOW ></h4>
                 <div class="botoes-nav">
                     <input type="button" class="botao-left">
@@ -41,6 +35,20 @@
 </template>
 
 <script>
+import ConteudoRoom from '../components/ConteudoRoom'
+import ConteudoImagem from '../components/ConteudoImagem'
+export default {
+    name: 'Home-page',
+    components: {
+        ConteudoRoom,
+        ConteudoImagem
+    },
+    data () {
+        return {
+            imgURL: "/desktop-image-hero-1.jpg"
+        }
+    }
+}
 
 </script>
 

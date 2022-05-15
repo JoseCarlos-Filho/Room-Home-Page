@@ -8,6 +8,8 @@
 
 </script>
 
-<style>
-
+<style lang="scss">
+.Shop-page{
+    background: gray;
+}
 </style>
