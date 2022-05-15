@@ -1,3 +1,9 @@
+*,*::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --color-primary: hsl(0deg, 0%, 63%);
     --color-primary-dark: hsl(0deg, 0%, 27%);
@@ -12,40 +18,41 @@
     align-items: center;
 
     .img-hero-1 {
-        height: 400px;
-        width: 500px;
+        height: 450px;
+        width: 55rem;
     }
 
     h1{
         color: var(--color-primary-dark);
-        padding: 10px;
-        margin: 10px 10px;
+        padding: 15px;
+        margin: 15px;
 
     }
 
     p {
         color: var(--color-primary);
-        padding: 10px;
-        margin: 10px;
+        padding: 15px;
+        margin: 15px;
+        margin-right: 200px;
     }
 
     h4{
         color: var(--color-primary-dark);
-        padding: 10px;
-        margin: 10px;
+        padding: 15px;
+        margin: 15px;
         letter-spacing: 1em;
     }
 
     .botoes-nav {
         position: relative;
-        top: 52px;
+        top: 63.5px;
     }
 
     
 
     .botoes-nav .botao-left {
-        width: 50px;
-        height: 50px;
+        width: 90px;
+        height: 80px;
     
         background-image: url('../assets/icon-angle-left.svg');
         background-repeat: no-repeat;
@@ -57,8 +64,8 @@
     }
 
     .botoes-nav .botao-right {
-        width: 50px;
-        height: 50px;
+        width: 90px;
+        height: 80px;
     
         background-image: url('../assets/icon-angle-right.svg');
         background-repeat: no-repeat;
@@ -73,10 +80,14 @@
 
 .container-bottom {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -3px;
 
     .img-dark-about, .img-light-about {
-        height: 150px;
-        width: 250px;
+        height: 270px;
+        width: 430px;
+        margin-right: 47px;
     }
 
     h2 {

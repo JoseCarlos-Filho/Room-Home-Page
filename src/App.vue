@@ -25,5 +25,7 @@
 
 
 <style lang="scss">
+
 @import './StylesSass/principal.scss';
+
 </style>

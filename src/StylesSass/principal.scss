@@ -27,7 +27,7 @@
       color: var(--color-tertiary);//#2c3e50;
   
       &.router-link-exact-active {
-        color:hsl(0, 0%, 63%);
+        color: var(--color-primary-dark);
       }
     }
   }
