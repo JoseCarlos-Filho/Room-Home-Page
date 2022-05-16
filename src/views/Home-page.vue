@@ -2,7 +2,8 @@
     <main>
         <section class="container-top">
             <ConteudoImagem
-                srcImage: imgURL
+                   :srcImage = imgUrl
+                   :clName = className
             />       
             <div>
                 <ConteudoRoom />
@@ -36,16 +37,27 @@ import ConteudoRoom from '../components/ConteudoRoom'
 import ConteudoImagem from '../components/ConteudoImagem'
 import BotoesNavegacao from '../components/BotoesNavegacao'
 export default {
-    name: 'Home-page',
+    // name: 'Home-page',
+    data () {
+        return {
+            imgUrl: "desktop-image-hero-1.jpg",
+            className: "img-hero-1",
+        }
+    },
+    
     components: {
         ConteudoRoom,
         ConteudoImagem,
-        BotoesNavegacao
+        BotoesNavegacao,
     },
-    data () {
-        return {
-            imgURL: "/desktop-image-hero-1.jpg"
-        }
+
+    methods: {
+        // verContent() {
+        //    
+        //   this.imgUrl = "desktop-image-hero-1.jpg",
+        //   this.className = "img-hero-1"
+        //     
+        // }
     }
 }
 

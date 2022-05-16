@@ -1,13 +1,24 @@
 <template>
     <div>
-        <img :src="require(`../assets/${srcImagem}`)" class="img-hero-1">
+        <img :class=clName :src="require(`../assets/${srcImagem}`)">
     </div>
 </template>
 
 <script>
-export default {
-    name: 'ConteudoImagem'
-}
+import {defineComponent} from 'vue'
+ export default defineComponent({
+    name: 'ConteudoImagem',
+    props: {
+        srcImagem: {
+            type: String,
+        },
+        clName: {
+            type: String,
+        }
+
+    }
+ })
+
 </script>
 
 <style lang="scss">
