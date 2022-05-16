@@ -7,10 +7,7 @@
             <div>
                 <ConteudoRoom />
                 <h4>SHOP NOW ></h4>
-                <div class="botoes-nav">
-                    <input type="button" class="botao-left">
-                    <input type="button" class="botao-right">
-                </div>  
+                <BotoesNavegacao />  
             </div>
         </section>
 
@@ -37,11 +34,13 @@
 <script>
 import ConteudoRoom from '../components/ConteudoRoom'
 import ConteudoImagem from '../components/ConteudoImagem'
+import BotoesNavegacao from '../components/BotoesNavegacao'
 export default {
     name: 'Home-page',
     components: {
         ConteudoRoom,
-        ConteudoImagem
+        ConteudoImagem,
+        BotoesNavegacao
     },
     data () {
         return {
