@@ -1,10 +1,14 @@
 <template>
     <main>
         <section class="container-top">
-            <ConteudoImagem
+            <div>
+                <img class="img-hero-1" src="../assets/desktop-image-hero-1.jpg">
+            </div>
+            
+            <!--<ConteudoImagem
                    :srcImage = imgUrl
                    :clName = className
-            />       
+            />-->       
             <div>
                 <ConteudoRoom />
                 <h4>SHOP NOW ></h4>
@@ -34,7 +38,7 @@
 
 <script>
 import ConteudoRoom from '../components/ConteudoRoom'
-import ConteudoImagem from '../components/ConteudoImagem'
+// import ConteudoImagem from '../components/ConteudoImagem'
 import BotoesNavegacao from '../components/BotoesNavegacao'
 export default {
     // name: 'Home-page',
@@ -47,7 +51,7 @@ export default {
     
     components: {
         ConteudoRoom,
-        ConteudoImagem,
+        // ConteudoImagem,
         BotoesNavegacao,
     },
 
