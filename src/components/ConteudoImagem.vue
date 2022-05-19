@@ -1,23 +1,25 @@
 <template>
     <div>
-        <img :class=clName :src="require(`../assets/${srcImagem}`)">
+        <!--<img :src="require(`${srcImagem}`)">-->
+        <img :src="require(`${srcImagem}`)">
     </div>
 </template>
 
 <script>
-import { defineComponent } from 'vue'
- export default defineComponent({
-    name: 'ConteudoImagem',
-    props: {
-        srcImagem: {
-            type: String,
-        },
-        clName: {
-            type: String,
-        }
 
+// import { defineComponent } from 'vue'
+
+ export default {
+     name: 'ConteudoImagem',
+     props: {
+         srcImagem: {
+             type: String,
+        }
     }
- })
+ }
+ 
+
+    
 
 </script>
 
