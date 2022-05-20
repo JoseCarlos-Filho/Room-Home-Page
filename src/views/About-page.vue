@@ -2,7 +2,7 @@
     <main>
         <section class="container-top">
             <div>
-                <img class="img-hero-1" src="../assets/desktop-image-hero-1.jpg">
+                <img class="img-hero-1" src="../assets/desktop-image-hero-3.jpg">
             </div>
             
             <!--<ConteudoImagem
