@@ -1,13 +1,24 @@
 <template>
     <div class="botoes-nav">
-        <input type="button" class="botao-left">
-        <input type="button" class="botao-right">
+        <!--<button type="button" value="" class="btn" 
+                    :class="{ active: mostraVisao}" @click="verVisao">Visão Geral</button>-->
+        <input type="button" class="botao-left"
+            :class="{ active: mostraConteudo}" @click="verConteudo">
+
+        <input type="button" class="botao-right"
+            :class="{ active: mostraConteudo}" @click="verConteudo">
     </div>
 </template>
 
 <script>
 export default {
-    name: 'BotoesNavegacao'
+   name: 'BotoesNavegacao',
+
+   data() {
+       return {
+           conteudo: "", 
+       }
+   }
 }
 </script>
 
