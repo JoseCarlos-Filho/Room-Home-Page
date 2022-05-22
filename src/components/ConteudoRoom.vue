@@ -1,19 +1,28 @@
 <template>
     <div>
-        <h1>Discovery innovative ways to decorate</h1>
-        <p>We provide unmatched quality, comfort, and style for property
-           owners across the country. Our experts combine from and 
-           function in bringing your vision to life. Create a room in your own
-           style with our collection and make your property a reflection of
-           you and what you love.
+        <h1>
+            {{ title }}
+        </h1>
+        <p>
+            {{ content }}
         </p>
     </div>
 </template>
 
 <script>
     export default {
-        name: 'ConteudoRoom'
+        name: 'ConteudoRoom',
+    
+    props: {
+        title: {
+            type: String
+        },
+
+        content: {
+            type: String,
+        },
     }
+}
 </script>
 
 <style lang="scss">
