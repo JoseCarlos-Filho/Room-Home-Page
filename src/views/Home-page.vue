@@ -16,7 +16,13 @@
                     :content = conteudo
                 />
                 <h4>SHOP NOW ></h4>
-                <BotoesNavegacao />  
+                <div class="botoes-nav">
+                    <input type="button" class="botao-left"
+                    :class="{ active: mostraConteudo}" @click="verConteudo">
+
+                    <input type="button" class="botao-right"
+                    :class="{ active: mostraConteudo}" @click="verConteudo">
+                </div>  
             </div>
         </section>
 
@@ -43,7 +49,7 @@
 <script>
 import ConteudoRoom from '../components/ConteudoRoom'
 // import ConteudoImagem from '../components/ConteudoImagem'
-import BotoesNavegacao from '../components/BotoesNavegacao'
+// import BotoesNavegacao from '../components/BotoesNavegacao'
 export default {
     // name: 'Home-page',
     data () {
@@ -60,16 +66,15 @@ export default {
     components: {
         ConteudoRoom,
         // ConteudoImagem,
-        BotoesNavegacao,
+        // BotoesNavegacao,
     },
 
     methods: {
-        // verContent() {
-        //    
-        //   this.imgUrl = "desktop-image-hero-1.jpg",
-        //   this.className = "img-hero-1"
-        //     
-        // }
+        verConteudo() {
+           
+          tituloInfo: "Discovery innovative ways to decorate",
+
+        },
     }
 }
 
