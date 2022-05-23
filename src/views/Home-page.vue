@@ -72,7 +72,12 @@ export default {
     methods: {
         verConteudo() {
            
-          tituloInfo: "Discovery innovative ways to decorate",
+          this.tituloInfo =  "Discovery innovative ways to decorate"
+          this.conteudo = "We provide unmatched quality, comfort, and style for property \n" +
+                          "owners across the country. Our experts combine from and \n" + 
+                          "function in bringing your vision to life. Create a room in your own \n" +
+                          "style with our collection and make your property a reflection of \n" +
+                          "you and what you love."
 
         },
     }
