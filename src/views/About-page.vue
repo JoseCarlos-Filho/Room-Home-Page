@@ -10,7 +10,10 @@
                    :clName = className
             />-->       
             <div>
-                <ConteudoRoom />
+                <ConteudoRoom 
+                    :title = tituloInfo
+                    :content = conteudo
+                />
                 <h4>SHOP NOW ></h4>
                 <BotoesNavegacao />  
             </div>
@@ -44,8 +47,11 @@ export default {
     // name: 'Home-page',
     data () {
         return {
-            imgUrl: "desktop-image-hero-1.jpg",
-            className: "img-hero-1",
+            tituloInfo: "Manufactured with the best materials",
+            conteudo: "Our modern furniture store provide a high level of quality. Our company\n" +
+                      "has invested in advanced technology to ensure that every product is made\n" + 
+                      "as perfect and as consistent as possible. With three decades of experience\n" +
+                      "in this industry, we understand what customers want for their home and office."
         }
     },
     
@@ -55,14 +61,7 @@ export default {
         BotoesNavegacao,
     },
 
-    methods: {
-        // verContent() {
-        //    
-        //   this.imgUrl = "desktop-image-hero-1.jpg",
-        //   this.className = "img-hero-1"
-        //     
-        // }
-    }
+    
 }
 
 </script>

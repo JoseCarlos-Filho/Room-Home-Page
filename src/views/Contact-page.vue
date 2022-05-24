@@ -10,7 +10,10 @@
                    :clName = className
             />-->       
             <div>
-                <ConteudoRoom />
+                <ConteudoRoom 
+                    :title = tituloInfo
+                    :content = conteudo
+                />
                 <h4>SHOP NOW ></h4>
                 <BotoesNavegacao />  
             </div>
@@ -44,8 +47,12 @@ export default {
     // name: 'Home-page',
     data () {
         return {
-            imgUrl: "desktop-image-hero-1.jpg",
-            className: "img-hero-1",
+            tituloInfo: "Discovery innovative ways to decorate",
+            conteudo:   "We provide unmatched quality, comfort, and style for property \n" +
+                        "owners across the country. Our experts combine from and \n" + 
+                        "function in bringing your vision to life. Create a room in your own \n" +
+                        "style with our collection and make your property a reflection of \n" +
+                        "you and what you love."
         }
     },
     

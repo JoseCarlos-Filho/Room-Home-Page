@@ -10,7 +10,10 @@
                    :clName = className
             />-->       
             <div>
-                <ConteudoRoom />
+                <ConteudoRoom 
+                    :title = tituloInfo
+                    :content = conteudo
+                />
                 <h4>SHOP NOW ></h4>
                 <BotoesNavegacao />  
             </div>
@@ -44,8 +47,11 @@ export default {
     // name: 'Home-page',
     data () {
         return {
-            imgUrl: "desktop-image-hero-1.jpg",
-            className: "img-hero-1",
+            tituloInfo: "We are available all across the globe",
+            conteudo: "With stores all over the world, it's easy for you to find furniture\n" +
+                      "for your home or place of business. Locally, we’re in most major cities\n" +
+                      "throughout the country. Find the branch nearest you using our store locator.\n" +
+                      "Any questions? Don't hesitate to contact us today."
         }
     },
     

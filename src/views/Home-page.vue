@@ -69,18 +69,34 @@ export default {
         // BotoesNavegacao,
     },
 
-    methods: {
-        verConteudo() {
+    // methods: {
+    //     verHome() {
            
-          this.tituloInfo =  "Discovery innovative ways to decorate"
-          this.conteudo = "We provide unmatched quality, comfort, and style for property \n" +
-                          "owners across the country. Our experts combine from and \n" + 
-                          "function in bringing your vision to life. Create a room in your own \n" +
-                          "style with our collection and make your property a reflection of \n" +
-                          "you and what you love."
+    //       this.tituloInfo =  "Discovery innovative ways to decorate"
+    //       this.conteudo = "We provide unmatched quality, comfort, and style for property \n" +
+    //                       "owners across the country. Our experts combine from and \n" + 
+    //                       "function in bringing your vision to life. Create a room in your own \n" +
+    //                       "style with our collection and make your property a reflection of \n" +
+    //                       "you and what you love."
 
-        },
-    }
+    //     },
+
+    //     verShop() {
+    //         this.tituloInfo =  "We are available all across the globe"
+    //         this.conteudo = "With stores all over the world, it's easy for you to find furniture\n" +
+    //                         "for your home or place of business. Locally, we’re in most major cities\n" +
+    //                         "throughout the country. Find the branch nearest you using our store locator.\n" +
+    //                         "Any questions? Don't hesitate to contact us today."
+    //     },
+
+    //     verAbout() {
+    //          this.tituloInfo =  "Manufactured with the best materials"
+    //         this.conteudo = "Our modern furniture store provide a high level of quality. Our company\n" +
+    //                         "has invested in advanced technology to ensure that every product is made\n" + 
+    //                         "as perfect and as consistent as possible. With three decades of experience\n" +
+    //                         "in this industry, we understand what customers want for their home and office."
+    //     }
+    // }
 }
 
 </script>
