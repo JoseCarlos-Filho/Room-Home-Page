@@ -61,15 +61,6 @@ export default {
         // ConteudoImagem,
         BotoesNavegacao,
     },
-
-    methods: {
-        // verContent() {
-        //    
-        //   this.imgUrl = "desktop-image-hero-1.jpg",
-        //   this.className = "img-hero-1"
-        //     
-        // }
-    }
 }
 
 </script>

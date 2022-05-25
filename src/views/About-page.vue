@@ -42,7 +42,7 @@
 <script>
 import ConteudoRoom from '../components/ConteudoRoom'
 // import ConteudoImagem from '../components/ConteudoImagem'
-import BotoesNavegacao from '../components/BotoesNavegacao'
+ import BotoesNavegacao from '../components/BotoesNavegacao'
 export default {
     // name: 'Home-page',
     data () {
