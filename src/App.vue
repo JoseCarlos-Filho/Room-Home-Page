@@ -17,9 +17,6 @@
         <li>
           <router-link :to="{name: 'contact'}">contact</router-link>
         </li>
-         <li>
-          <router-link :to="{name: 'PageNew'}">PageNew</router-link>
-        </li>
       </ul>
     </nav>
     <router-view/>

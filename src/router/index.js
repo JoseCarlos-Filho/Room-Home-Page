@@ -6,7 +6,6 @@ import shop from '../views/Shop-page.vue';
 import home from '../views/Home-page.vue';
 import about from '../views/About-page.vue';
 import contact from '@/views/Contact-page.vue';
-import PageNew from '../views/PageNew.vue';
 
 Vue.use(VueRouter)
 
@@ -34,24 +33,7 @@ const routes = [
     name: 'contact',
     component: contact
   },
-
-  {
-    path: '/PageNew',
-    name: 'PageNew',
-    component: PageNew
-  }
-  
-    //{ route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    //   component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
-    // }
 ]
-
-// const router = createRouter({
-//   history: createWebHistory(process.env.BASE_URL),
-//   routes
-// })
 
 const router = new VueRouter({
   routes
