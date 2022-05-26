@@ -3,19 +3,13 @@
         <section class="container-top">
             <div>
                 <img class="img-hero-1" src="../assets/desktop-image-hero-1.jpg">
-            </div>
-            
-            <!--<ConteudoImagem
-                   :srcImage = imgUrl
-                   :clName = className
-            />-->       
+            </div>      
             <div>
                 <ConteudoRoom 
                     :title = tituloInfo
                     :content = conteudo
                 />
-                <h4>SHOP NOW ></h4>
-                <BotoesNavegacao />  
+                <h4>SHOP NOW ></h4>  
             </div>
         </section>
 
@@ -41,10 +35,7 @@
 
 <script>
 import ConteudoRoom from '../components/ConteudoRoom'
-// import ConteudoImagem from '../components/ConteudoImagem'
-import BotoesNavegacao from '../components/BotoesNavegacao'
 export default {
-    // name: 'Home-page',
     data () {
         return {
             tituloInfo: "Discovery innovative ways to decorate",
@@ -58,8 +49,6 @@ export default {
     
     components: {
         ConteudoRoom,
-        // ConteudoImagem,
-        BotoesNavegacao,
     },
 }
 

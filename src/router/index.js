@@ -1,7 +1,5 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-// import { createRouter, createWebHistory } from 'vue-router'
-// import HomeView from '../views/HomeView.vue'
 import shop from '../views/Shop-page.vue';
 import home from '../views/Home-page.vue';
 import about from '../views/About-page.vue';
