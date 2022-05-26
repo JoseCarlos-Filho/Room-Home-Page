@@ -48,7 +48,6 @@ export default {
     
     components: {
         ConteudoRoom,
-        // ConteudoImagem,
     },
 
     
