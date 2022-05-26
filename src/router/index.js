@@ -6,6 +6,7 @@ import shop from '../views/Shop-page.vue';
 import home from '../views/Home-page.vue';
 import about from '../views/About-page.vue';
 import contact from '@/views/Contact-page.vue';
+import PageNew from '../views/PageNew.vue';
 
 Vue.use(VueRouter)
 
@@ -33,6 +34,12 @@ const routes = [
     name: 'contact',
     component: contact
   },
+
+  {
+    path: '/PageNew',
+    name: 'PageNew',
+    component: PageNew
+  }
   
     //{ route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route

@@ -15,7 +15,8 @@
     
     props: {
         title: {
-            type: String
+            type: String,
+            
         },
 
         content: {
