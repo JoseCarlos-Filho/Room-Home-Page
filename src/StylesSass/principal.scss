@@ -31,3 +31,23 @@
       }
     }
   }
+
+  .mobileMenu {
+    cursor: pointer;
+  }
+
+  .mobileMenu div {
+    width: 32px;
+    height: 2px;
+    background: var(--color-primary);
+    margin: 8px;
+  }
+
+  @media (max-width:375px) {
+    
+      .navList {
+
+
+      }
+  
+  }
