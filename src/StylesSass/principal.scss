@@ -44,10 +44,33 @@
   }
 
   @media (max-width:375px) {
+      nav {
+        overflow-x: hidden;
+      }
     
       .navList {
+        position: absolute;
+        top: 1vh;
+        left: 0;
+        width: 50vw;
+        height: 92vh;
+        background: var(--color-primary);
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+      }
 
+      .navList li {
+        margin-left: 0;
+        opacity: 0;
+      }
 
+      .mobileMenu {
+        display: block;
+      }
+
+      .navList .active {
+        transform: translateX(0);
       }
   
   }
