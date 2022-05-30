@@ -103,3 +103,101 @@
     }
 
 }
+
+@media (max-width: 375px) {
+    .container-top {
+        display: flex;
+        // justify-content: center;
+        // align-items: center;
+        flex-direction: column;
+    
+        .img-hero-1 {
+            height: 400px;
+            width: 375px;
+        }
+    
+        h1{
+            color: var(--color-primary-dark);
+            text-align: center;
+            // padding: 15px;
+            // margin: 15px;
+    
+        }
+    
+        p {
+            color: var(--color-primary);
+            text-align: center;
+            // padding: 15px;
+            // margin: 15px;
+            // margin-right: 200px;
+        }
+    
+        h4{
+            color: var(--color-primary-dark);
+            padding: 15px;
+            margin: 15px;
+            letter-spacing: 1em;
+        }
+    
+        .botoes-nav {
+            position: relative;
+            top: 63.5px;
+        }
+    
+        
+    
+        .botoes-nav .botao-left {
+            width: 90px;
+            height: 80px;
+        
+            background-image: url('../assets/icon-angle-left.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: var(--color-secondary);
+            border: none;
+            
+    
+        }
+    
+        .botoes-nav .botao-right {
+            width: 90px;
+            height: 80px;
+        
+            background-image: url('../assets/icon-angle-right.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: var(--color-secondary);
+            border: none;
+    
+        }
+        
+    
+    }
+
+    .container-bottom {
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        // justify-content: space-between;
+        // margin-top: -3px;
+    
+        .img-dark-about, .img-light-about {
+            height: 270px;
+            width: 430px;
+            margin-right: 47px;
+        }
+    
+        h2 {
+            color: var(--color-secondary);
+            margin: 10px;
+            padding: 10px;
+        }
+    
+        p {
+            color: var(--color-primary);
+            margin: 10px;
+            padding: 10px;
+        }
+    
+    }
+}
