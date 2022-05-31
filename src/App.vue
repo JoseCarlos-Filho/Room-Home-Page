@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <nav>
-      <div class="mobileMenu">
+      <div class="mobileMenu" @click="addClickEvent">
           <div class="line-1"></div>
           <div class="line-2"></div>
           <div class="line-3"></div>
@@ -17,6 +17,10 @@
     <router-view/>
   </div>
 </template>
+
+<script>
+  
+</script>
 
 
 <style lang="scss">
