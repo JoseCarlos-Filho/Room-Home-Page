@@ -45,10 +45,10 @@
   }
 
   .mobileMenu div {
-    width: 32px;
-    height: 2px;
-    background: var(--color-primary);
-    margin: 8px;
+    width: 22px;
+    height: 1px;
+    background: var(--color-tertiary);
+    margin: 4px;
   }
 
   @media (max-width:375px) {

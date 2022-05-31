@@ -107,8 +107,6 @@
 @media (max-width: 375px) {
     .container-top {
         display: flex;
-        // justify-content: center;
-        // align-items: center;
         flex-direction: column;
     
         .img-hero-1 {
@@ -118,56 +116,38 @@
     
         h1{
             color: var(--color-primary-dark);
-            text-align: center;
-            // padding: 15px;
-            // margin: 15px;
-    
+            font-size: 12px;
+            margin-top: -5px;
         }
     
         p {
             color: var(--color-primary);
-            text-align: center;
-            // padding: 15px;
-            // margin: 15px;
-            // margin-right: 200px;
+            font-size: 10px;
+            margin-top: -20px;
+            
         }
     
         h4{
             color: var(--color-primary-dark);
-            padding: 15px;
-            margin: 15px;
-            letter-spacing: 1em;
+            font-size: 10px;
+            margin-top: -15px;
         }
     
         .botoes-nav {
             position: relative;
-            top: 63.5px;
+            top: 0px;
         }
     
         
     
         .botoes-nav .botao-left {
-            width: 90px;
-            height: 80px;
-        
-            background-image: url('../assets/icon-angle-left.svg');
-            background-repeat: no-repeat;
-            background-position: center;
-            background-color: var(--color-secondary);
-            border: none;
-            
-    
+            width: 50px;
+            height: 40px;
         }
     
         .botoes-nav .botao-right {
-            width: 90px;
-            height: 80px;
-        
-            background-image: url('../assets/icon-angle-right.svg');
-            background-repeat: no-repeat;
-            background-position: center;
-            background-color: var(--color-secondary);
-            border: none;
+            width: 50px;
+            height: 40px;
     
         }
         
@@ -185,14 +165,13 @@
     
         h2 {
             color: var(--color-secondary);
-            margin: 10px;
-            padding: 10px;
+            font-size: 12px;
         }
     
         p {
             color: var(--color-primary);
-            margin: 10px;
-            padding: 10px;
+            font-size: 10px;
+            margin-right: 100px;
         }
     
     }
