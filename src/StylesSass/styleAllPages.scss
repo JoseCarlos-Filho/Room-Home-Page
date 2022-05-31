@@ -112,7 +112,7 @@
         flex-direction: column;
     
         .img-hero-1 {
-            height: 400px;
+            height: 250px;
             width: 375px;
         }
     
@@ -177,14 +177,10 @@
     .container-bottom {
         display: flex;
         flex-direction: column;
-        // align-items: center;
-        // justify-content: space-between;
-        // margin-top: -3px;
     
         .img-dark-about, .img-light-about {
-            height: 270px;
-            width: 430px;
-            margin-right: 47px;
+            height: 250px;
+            width: 375px;
         }
     
         h2 {

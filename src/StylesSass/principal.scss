@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2? family= Lato:wght@300;400;700 & family= League+Spartan:wght@500;600;700 & family= Manrope & family= Montserrat:wght@100 & family= Viaduto:wght@400;700 & display=swap');
 
+:root {
+  --color-primary: hsl(0deg, 0%, 63%);
+  --color-primary-dark: hsl(0deg, 0%, 27%);
+  --color-secondary: hsl(0deg, 0%, 0%);
+  --color-tertiary: hsl(0deg, 0%, 100%);
+  --default-size: 1.2rem;
+}
+
 #app {
     font-family: Lato;
     font-size: 12px;
@@ -54,7 +62,7 @@
         left: 0;
         width: 50vw;
         height: 92vh;
-        background: var(--color-primary);
+        background: var(--color-tertiary);
         flex-direction: column;
         align-items: center;
         transform: translateX(100%);
