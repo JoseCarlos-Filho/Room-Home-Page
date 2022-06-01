@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <nav>
-      <div class="mobileMenu" @click="addClickEvent">
+      <div class="mobileMenu">
           <div class="line-1"></div>
           <div class="line-2"></div>
           <div class="line-3"></div>
